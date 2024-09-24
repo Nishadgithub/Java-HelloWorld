@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-                git credentialsId: 'Password', url: 'https://github.com/kampatinagesh/test1.git'
+                git credentialsId: 'Password', url: 'https://github.com/kampatinagesh/Java-HelloWorld.git'
             }
         }
         stage("Maven Build"){
